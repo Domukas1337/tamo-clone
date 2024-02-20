@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --accent: #24273a;
+}
+
 body {
     background: #131020;
     color: white;
 
 }
-bg-accent {
-    background: #24273a;
+.bg-accent {
+    background-color: var(--accent);
 }
