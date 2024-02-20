@@ -1,6 +1,7 @@
+import Image from "next/image"
 export default function Content() {
     return (
-        <div className="mx-40 my-20 flex text-white">
+        <div className="mx-60 my-20 flex text-white">
             <div className=" text-3xl ">
                 <h1 className="text-pink-200">Sveikiname atvykus i TAMO!</h1>
                 <h1>Susipažinkite su TAMO slaptažodžio <br/> saugumo instrukcija!
@@ -12,6 +13,9 @@ export default function Content() {
                 <h1 className="text-sm">Kviečiame susipažinti kokius 4 žingsnius naudinga atlikti norint tai užtikrinti.</h1>
                 <br/>
                 <a className="text-pink-300">Sužinoti daugiau... </a>
+            </div>
+            <div className="mx-20">
+                <Image src="/anime.png" alt="logo" width={500} height={700} className="border-2 border-blue-300 rounded-md"/>
             </div>
         </div>
     )
