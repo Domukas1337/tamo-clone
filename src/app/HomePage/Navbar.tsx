@@ -1,5 +1,4 @@
 import Image from "next/image"
-
 export default function Navbar() {
     return (
         <div className="p-6 shadow-lg">
