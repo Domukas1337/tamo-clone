@@ -11,7 +11,7 @@ const NavItems = [
     },
     {
         name: "Prisijungti",
-        link: "/login",
+        link: "/api/user",
         class: "bg-black px-6 py-2 rounded-full hover:bg-white hover:text-black duration-200"
     }
 ]
